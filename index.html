@@ -73,6 +73,12 @@ function keyUpHandler(e) {
         leftPressed = false;
     }
 }
+
+if (rightPressed) {
+    paddleX = Math.min(paddleX + 7, canvas.wdith - paddleWidth);
+} else if (leftPressed) {
+    paddleX = Math.max(paddleX - 7, 0);
+}
 setInterval(draw, 10);
 </script>
 
