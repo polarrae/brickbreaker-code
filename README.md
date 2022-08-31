@@ -1,6 +1,6 @@
 # brickbreaker-code
 Brick Breaker Game
 
-Just a CS Project for VS code.
+A CS Project for Visual Studio Code.
 
 Changes
